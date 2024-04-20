@@ -9,23 +9,42 @@ html{
     gap: 30px;
 }
 
+#ttl{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+#ttl0{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 70px;
+    color: white;
+} 
+
+
 .sqr{
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
+    border-radius: 12%;
 }
 
 #sqrR{
     background-color: red;
+    margin-left: 400px;
 }
 
 #sqrG{
     background-color: green;
+    margin-right: 400px;
 }
 
 #sqrB{
     background-color: blue;
+    margin-left: 400px;
 }
 
 #sqrY{
     background-color: yellow;
+    margin-right: 400px;
 }
