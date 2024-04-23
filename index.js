@@ -1,7 +1,6 @@
 var colors = ["red","green","blue","yellow"];
 var nmbrRandom = [];
 var clrOrder = [];
-var songR = new Audio('./red.mp3');
 
 nmbrRandom = Math.random();
 nmbrRandom = nmbrRandom * 4;
@@ -15,7 +14,8 @@ clrOrder.push(colors[nmbrRandom]);
 
 if(clrOrder == "red"){
     $("#sqrR").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-    songR.play();
+    var song = $("#songR")[0];
+    song.play();
 } else if(clrOrder == "green"){
     $("#sqrG").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 } else if(clrOrder == "blue"){
