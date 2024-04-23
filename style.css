@@ -31,20 +31,20 @@ html{
 
 #sqrR{
     background-color: red;
-    margin-left: 400px;
+    margin-left: 50%;
 }
 
 #sqrG{
     background-color: green;
-    margin-right: 400px;
+    margin-right: 50%;
 }
 
 #sqrB{
     background-color: blue;
-    margin-left: 400px;
+    margin-left: 50%;
 }
 
 #sqrY{
     background-color: yellow;
-    margin-right: 400px;
+    margin-right: 50%;
 }
