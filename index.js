@@ -1,6 +1,7 @@
 var colors = ["red","green","blue","yellow"];
 var nmbrRandom = [];
 var clrOrder = [];
+var numberOfSqrs = document.querySelectorAll(".sqr").length;
 
 nmbrRandom = Math.random();
 nmbrRandom = nmbrRandom * 4;
@@ -8,8 +9,9 @@ nmbrRandom = Math.floor(nmbrRandom);
 
 console.log(nmbrRandom);
 
-
 clrOrder.push(colors[nmbrRandom]);
+
+console.log(clrOrder);
 
 
 if(clrOrder == "red"){
@@ -30,7 +32,18 @@ if(clrOrder == "red"){
     song.play();
 }
 
-console.log(clrOrder);
+
+for(var i = 0; i<numberOfSqrs;i++){
+    document.querySelectorAll(".sqr")[i].addEventListener("click", sqrClick);
+}
+
+function sqrClick(){
+    console.log();
+}
+
+
+
+
 
 
 
