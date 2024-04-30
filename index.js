@@ -2,16 +2,17 @@ var colors = ["red","green","blue","yellow"];
 var nmbrRandom = [];
 var clrOrder = [];
 var numberOfSqrs = document.querySelectorAll(".sqr").length;
+var usrSequence = [];
 
-nmbrRandom = Math.random();
+
+function rdmSequence(){
+
+    nmbrRandom = Math.random();
 nmbrRandom = nmbrRandom * 4;
 nmbrRandom = Math.floor(nmbrRandom);
 
-console.log(nmbrRandom);
 
 clrOrder.push(colors[nmbrRandom]);
-
-console.log(clrOrder);
 
 
 if(clrOrder == "red"){
@@ -32,10 +33,26 @@ if(clrOrder == "red"){
     song.play();
 }
 
-
-for(var i = 0; i<numberOfSqrs;i++){
-    document.querySelectorAll(".sqr")[i].addEventListener("click", sqrClick);
 }
+
+
+
+// for(var i = 0; i<numberOfSqrs;i++){
+//     console.log(numberOfSqrs);
+//     var id = [];
+//     id = this.id;
+//     document.querySelectorAll(".sqr")[i].addEventListener("click", sqrClick);
+// }
+
+$(".sqr").click(function(){
+        var usrClickedColor = $(this).attr("id");
+
+        usrSequence.push(usrClickedColor);
+
+        console.log(usrSequence);
+});
+
+
 
 function sqrClick(){
     console.log();
