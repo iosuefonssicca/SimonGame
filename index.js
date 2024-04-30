@@ -7,7 +7,7 @@ var usrSequence = [];
 
 function rdmSequence(){
 
-    nmbrRandom = Math.random();
+nmbrRandom = Math.random();
 nmbrRandom = nmbrRandom * 4;
 nmbrRandom = Math.floor(nmbrRandom);
 
@@ -36,7 +36,6 @@ if(clrOrder == "red"){
 }
 
 
-
 // for(var i = 0; i<numberOfSqrs;i++){
 //     console.log(numberOfSqrs);
 //     var id = [];
@@ -49,7 +48,6 @@ $(".sqr").click(function(){
 
         usrSequence.push(usrClickedColor);
 
-        console.log(usrSequence);
 });
 
 
