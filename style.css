@@ -29,22 +29,22 @@ html{
     border-radius: 12%;
 }
 
-#sqrR{
+#red{
     background-color: red;
     margin-left: 50%;
 }
 
-#sqrG{
+#green{
     background-color: green;
     margin-right: 50%;
 }
 
-#sqrB{
+#blue{
     background-color: blue;
     margin-left: 50%;
 }
 
-#sqrY{
+#yellow{
     background-color: yellow;
     margin-right: 50%;
 }
